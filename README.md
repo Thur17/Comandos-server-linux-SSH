@@ -17,28 +17,28 @@
 ```bash
 apt install openssh-server
 ```
-![image](https://user-images.githubusercontent.com/88401848/175353653-dfa18f7a-768d-4bab-90f3-5c6c302af982.png)
+![image](https://raw.githubusercontent.com/Thur17/Comandos-server-linux-SSH/master/assets/img/Install-ssh.png)
 
 <h3>Verificar status de SSH</h3>
 
 ```bash
 service ssh status
 ```
-![image](https://user-images.githubusercontent.com/88401848/175353653-dfa18f7a-768d-4bab-90f3-5c6c302af982.png)
+![image](https://raw.githubusercontent.com/Thur17/Comandos-server-linux-SSH/master/assets/img/ssh-ativado.png)
 
 <h3>Para descobrir Ip da mauqina que ira receber o acesso abra o terminal colocar o comando  </h3>
 
 ```bash
 ip a
 ```
-![image](https://user-images.githubusercontent.com/88401848/175353653-dfa18f7a-768d-4bab-90f3-5c6c302af982.png)
+![image](https://raw.githubusercontent.com/Thur17/Comandos-server-linux-SSH/master/assets/img/ipserver.png)
 
-<h3>No terminal linux digitar: ssh "nome_user"@ip_da_maquina</h3>
+<h3>No terminal linux digitar: ssh "nome_user"@"ip_da_maquina" obs:sem a "" igual na img abaixo</h3>
 
 ```bash
 ssh root@192.168.0.1
 ```
-![image](https://user-images.githubusercontent.com/88401848/175353653-dfa18f7a-768d-4bab-90f3-5c6c302af982.png)
+![image](https://raw.githubusercontent.com/Thur17/Comandos-server-linux-SSH/master/assets/img/Acesso%20remoto.png)
 
 <div align="center">
 </br>
